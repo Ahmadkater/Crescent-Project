@@ -27,35 +27,32 @@
             </div>
         </div>
     </div>
-
-    <div class="container" *ngIf="show == true">
-        <div class="container">
-            <p class="lead text-center">
-                Crescent Technologies (CT)
-            </p>
-            <p class="text-center">
+    <hr class="my-4" *ngIf="show == true">
+    <div class="row justify-content-around " *ngIf="show == true">
+        <div class="col-5">
+            <p class="lead text-left">Crescent Technologies (CT)</p>
+            <p class="lead text-left">
                 Values self-driven,
                 disciplined and committed individuals with high level of personal integrity and socially responsible
-                outlook
-                towards life.
+                outlook towards life.
+            </p>
+            <p class="lead text-left">
                 People at Crescent Technologies are its greatest asset. We at Crescent Technologies,
                 Strive to provide an environment that encourages innovation and provides Opportunity to grow to one's
-                fullest
-                potential.
+                fullest potential.
             </p>
         </div>
-
-        <div class="container">
-            <p class="lead text-center">
-                Crescent Technologies (CT)
-            </p>
-            <p class="text-center">
+        <div class="col-5">
+            <p class="lead text-left">Crescent Technologies (CT)</p>
+            <p class="lead text-left">
                 Is an independent healthcare technology and innovation consultancy firm.
                 We provide total and creative solutions to our clients, mainly in the healthcare and medical industry.
                 Our consultations cover a broad spectrum of activities ranging from asset management to enterprise
                 resource
                 planning.
+            </p>
 
+            <p class="lead text-left">
                 Our experts will assist you in a number of strategic and operational management issues ranging from the
                 evaluation of repair and maintenance jobs performed in your hospital or factory, to restructuring your
                 organizational processes and adding value to your supply chain system, to planning future expansions of
@@ -64,6 +61,7 @@
             </p>
         </div>
     </div>
-    
-    <button class="btn btn-danger float-right" (click)="showtext()" >Learn More</button>
+
+    <button class="btn btn-danger float-right" (click)="showtext()">Learn More</button>
+
 </div>
